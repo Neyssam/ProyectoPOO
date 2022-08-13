@@ -20,11 +20,6 @@ public class Padre extends Persona{
         this.Hijo = Hijo;
     }
     
-    public Padre(String Id, String Nombre, String Apellido, int Edad, String Hijo){
-        super(Id, Nombre, Apellido, Edad);
-        this.Hijo = Hijo;
-    };
-
     public Padre(String Hijo, String Id, String Nombre, String Apellido, int Edad) {
         super(Id, Nombre, Apellido, Edad);
         this.Hijo = Hijo;
