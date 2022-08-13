@@ -16,6 +16,11 @@ public class Persona {
     
     public Persona(){};
     
-    
+    public Persona(String Id, String Nombre, String Apellido, int Edad){
+        this.Id = Id;
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Edad = Edad;
+    }
     
 }
