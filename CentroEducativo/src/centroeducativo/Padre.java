@@ -8,9 +8,14 @@ package centroeducativo;
  *
  * @author NeyEliuR
  */
-public class Padre {
+public class Padre extends Persona{
     protected String Hijo;
     
-    public Padre(){};
+    public Padre(String Id, String Nombre, String Apellido, int Edad){
+        this.Id = Id;
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Edad = Edad;
+    };
     
 }
