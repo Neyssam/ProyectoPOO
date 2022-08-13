@@ -8,12 +8,18 @@ package centroeducativo;
  *
  * @author NeyEliuR
  */
-public class Alumno {
+public class Alumno extends Persona{
+    
     
     protected int Cuenta;
     protected int AnioIngreso;
     protected String Padre;
     
-    public Alumno(){};
+    public Alumno(String Id, String Nombre, String Apellido, int Edad){
+        this.Id = Id;
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Edad = Edad;
+    };
     
 }
