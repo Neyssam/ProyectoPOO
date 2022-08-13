@@ -8,12 +8,17 @@ package centroeducativo;
  *
  * @author NeyEliuR
  */
-public class Profesor {
+public class Profesor extends Persona{
     
     protected int NumEmpleado;
     
     
-    public Profesor(){};
+    public Profesor(String Id, String Nombre, String Apellido, int Edad){
+        this.Id = Id;
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Edad = Edad;
+    };
     
     
     
