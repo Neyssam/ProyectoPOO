@@ -10,16 +10,49 @@ package centroeducativo;
  */
 public class Alumno extends Persona{
     
-    
     protected int Cuenta;
     protected int AnioIngreso;
     protected String Padre;
     
-    public Alumno(String Id, String Nombre, String Apellido, int Edad){
-        this.Id = Id;
-        this.Nombre = Nombre;
-        this.Apellido = Apellido;
-        this.Edad = Edad;
-    };
+    public Alumno(){};
+
+    public Alumno(int Cuenta, int AnioIngreso, String Padre) {
+        this.Cuenta = Cuenta;
+        this.AnioIngreso = AnioIngreso;
+        this.Padre = Padre;
+    }
+
+    public Alumno(int Cuenta, int AnioIngreso, String Padre, String Id, String Nombre, String Apellido, int Edad) {
+        super(Id, Nombre, Apellido, Edad);
+        this.Cuenta = Cuenta;
+        this.AnioIngreso = AnioIngreso;
+        this.Padre = Padre;
+    }
+
+    public void setCuenta(int Cuenta) {
+        this.Cuenta = Cuenta;
+    }
+
+    public void setAnioIngreso(int AnioIngreso) {
+        this.AnioIngreso = AnioIngreso;
+    }
+
+    public void setPadre(String Padre) {
+        this.Padre = Padre;
+    }
+
+    public int getCuenta() {
+        return Cuenta;
+    }
+
+    public int getAnioIngreso() {
+        return AnioIngreso;
+    }
+
+    public String getPadre() {
+        return Padre;
+    }
+    
+    
     
 }

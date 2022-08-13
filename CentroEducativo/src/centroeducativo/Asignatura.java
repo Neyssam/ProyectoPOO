@@ -10,11 +10,43 @@ package centroeducativo;
  */
 public class Asignatura {
     
-    public String Asinatura;
-    public String Curso;
-    public String Profesor;
+    private String Asinatura;
+    private String Curso;
+    private String Profesor;
     
     public Asignatura(){};
+
+    public Asignatura(String Asinatura, String Curso, String Profesor) {
+        this.Asinatura = Asinatura;
+        this.Curso = Curso;
+        this.Profesor = Profesor;
+    }
+
+    public void setAsinatura(String Asinatura) {
+        this.Asinatura = Asinatura;
+    }
+
+    public void setCurso(String Curso) {
+        this.Curso = Curso;
+    }
+
+    public void setProfesor(String Profesor) {
+        this.Profesor = Profesor;
+    }
+
+    public String getAsinatura() {
+        return Asinatura;
+    }
+
+    public String getCurso() {
+        return Curso;
+    }
+
+    public String getProfesor() {
+        return Profesor;
+    }
+    
+    
     
     
 }
