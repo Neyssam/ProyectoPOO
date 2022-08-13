@@ -9,18 +9,53 @@ package centroeducativo;
  * @author NeyEliuR
  */
 public class Persona {
-    public String Id;
-    public String Nombre;
-    public String Apellido;
-    public int Edad;
+    protected String Id;
+    protected String Nombre;
+    protected String Apellido;
+    protected int Edad;
     
     public Persona(){};
-    
-    public Persona(String Id, String Nombre, String Apellido, int Edad){
+
+    public Persona(String Id, String Nombre, String Apellido, int Edad) {
         this.Id = Id;
         this.Nombre = Nombre;
         this.Apellido = Apellido;
         this.Edad = Edad;
     }
+
+    public void setId(String Id) {
+        this.Id = Id;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public void setApellido(String Apellido) {
+        this.Apellido = Apellido;
+    }
+
+    public void setEdad(int Edad) {
+        this.Edad = Edad;
+    }
+
+    public String getId() {
+        return Id;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public String getApellido() {
+        return Apellido;
+    }
+
+    public int getEdad() {
+        return Edad;
+    }
+    
+    
+    
     
 }
