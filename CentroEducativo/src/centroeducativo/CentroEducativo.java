@@ -3,7 +3,7 @@ package centroeducativo;
 
 /**
  *
- * @author NeyEliuR
+ * @author PooGrupo#2
  */
 public class CentroEducativo {
 
@@ -11,7 +11,9 @@ public class CentroEducativo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        FrmPrincipal frm = new FrmPrincipal();
+        frm.setVisible(true);
+        //Todo el codigo estara en ese formulario. 
     }
     
 }

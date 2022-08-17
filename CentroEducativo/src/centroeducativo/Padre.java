@@ -11,15 +11,12 @@ package centroeducativo;
 public class Padre extends Persona{
     protected String Hijo;
     
+    public Padre(){};
 
-    public Padre(){
-        super();
-    }
-    
-    public Padre(String Hijo){
+    public Padre(String Hijo) {
         this.Hijo = Hijo;
     }
-    
+
     public Padre(String Hijo, String Id, String Nombre, String Apellido, int Edad) {
         super(Id, Nombre, Apellido, Edad);
         this.Hijo = Hijo;
@@ -32,5 +29,6 @@ public class Padre extends Persona{
     public String getHijo() {
         return Hijo;
     }
+    
     
 }
