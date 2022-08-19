@@ -16,12 +16,6 @@ public class Alumno extends Persona{
     
     public Alumno(){};
 
-    public Alumno(int Cuenta, int AnioIngreso, String Padre) {
-        this.Cuenta = Cuenta;
-        this.AnioIngreso = AnioIngreso;
-        this.Padre = Padre;
-    }
-
     public Alumno(int Cuenta, int AnioIngreso, String Padre, String Id, String Nombre, String Apellido, int Edad) {
         super(Id, Nombre, Apellido, Edad);
         this.Cuenta = Cuenta;
