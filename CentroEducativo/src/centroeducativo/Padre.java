@@ -12,8 +12,8 @@ public class Padre extends Persona{
     protected String Hijo;
     
     public Padre(){};
-
-    public Padre(String Hijo) {
+    
+    public Padre(String Hijo){
         this.Hijo = Hijo;
     }
 
