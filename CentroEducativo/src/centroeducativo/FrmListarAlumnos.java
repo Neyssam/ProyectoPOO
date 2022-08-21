@@ -60,7 +60,6 @@ public final class FrmListarAlumnos extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(tblAlumnos);
 
-        btnRegresar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/colegio/Imagenes/exit1.png"))); // NOI18N
         btnRegresar.setText("REGRESAR");
         btnRegresar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,7 +79,7 @@ public final class FrmListarAlumnos extends javax.swing.JFrame {
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(155, 155, 155)
-                        .addComponent(btnRegresar, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(btnRegresar, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(127, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
