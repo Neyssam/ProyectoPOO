@@ -1,0 +1,11 @@
+colegio.FrmPrincipal$2
+colegio.FrmPrincipal$1
+colegio.FrmPrincipal$4
+colegio.FrmPrincipal$3
+colegio.FrmPrincipal$6
+colegio.FrmPrincipal$10
+colegio.FrmPrincipal$5
+colegio.FrmPrincipal$8
+colegio.FrmPrincipal$7
+colegio.FrmPrincipal
+colegio.FrmPrincipal$9
