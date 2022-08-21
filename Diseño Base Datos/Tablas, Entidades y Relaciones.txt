@@ -1,0 +1,74 @@
+/-/ Grado
+Codigo: PK
+Nombre_Grado
+Descripcion
+
+
+
+/-/ Persona: Padre o Maestro
+Identificación: PK
+Nombre_1
+Nombre_2
+Apellido_1
+Apellido_2
+Genero
+Tipo
+Telefono
+Salario
+MatriculaInicial
+ID_GradoInicial: FK
+
+
+
+/-/ Paternidad
+Codigo: PK
+ID_Padre: FK
+ID_Madre: FK
+ID_Hijo: FK
+
+
+
+/-/ CentroEstudio
+Codigo: PK
+Nombre
+Direccion
+
+
+
+/-/ Seccion
+Codigo: PK
+Nombre_Seccion
+ID_Grado: FK
+ID_MaestroGuía: FK
+ID_CentroEstudio: FK
+
+
+
+/-/ Clase
+Codigo: PK
+Nombre
+Descripcion
+ID_Maestro: FK
+
+
+
+// DetalleSecionClase
+Codigo: PK
+ID_Seccion: FK
+ID_Clase: FK
+
+
+
+/-/ Calificaciones
+Codigo: PK
+Año
+ID_Grado: FK
+ID_Clase: FK
+ID_Persona: FK
+Parcial_1
+Parcial_2
+Parcial_3
+Parcial_4
+Promedio
+Observación
+
